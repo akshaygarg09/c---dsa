@@ -20,4 +20,22 @@ int main () {
             
         
     }
+
+    for( int i = n-1; i>=1; i--) {
+        for(int j = 1; j<=2*(n-i); j++) {
+            cout << " ";}
+            for(int j = 1; j<=i; j++) {
+            cout <<j;}
+            //space
+            for(int j =1; j<= 2*i-3; j++){
+                cout<<" ";}
+                if(i != 1){
+                    for(int j = 1; j<=i; j++){
+                        cout<<i-j+1;
+                    }
+                }
+                cout<<endl;
+            
+        
+    }
 }
